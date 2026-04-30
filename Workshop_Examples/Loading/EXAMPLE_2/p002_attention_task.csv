@@ -1,0 +1,9 @@
+participant_id,age,gender,group,session_date,trial,stimulus_type,stimulus_valence,reaction_time_ms,accuracy,confidence_rating
+P002,27,Man,Experimental,2026-04-11,1,word,neutral,641,1,4
+P002,27,Man,Experimental,2026-04-11,2,word,negative,759,0,2
+P002,27,Man,Experimental,2026-04-11,3,face,positive,571,1,4
+P002,27,Man,Experimental,2026-04-11,4,face,negative,812,1,3
+P002,27,Man,Experimental,2026-04-11,5,word,positive,603,1,4
+P002,27,Man,Experimental,2026-04-11,6,face,neutral,589,1,4
+P002,27,Man,Experimental,2026-04-11,7,word,negative,781,1,3
+P002,27,Man,Experimental,2026-04-11,8,face,positive,554,1,5

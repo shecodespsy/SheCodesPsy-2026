@@ -1,0 +1,9 @@
+participant_id,age,gender,group,session_date,trial,stimulus_type,stimulus_valence,reaction_time_ms,accuracy,confidence_rating
+P003,24,Woman,Control,2026-04-12,1,word,neutral,598,1,5
+P003,24,Woman,Control,2026-04-12,2,word,negative,688,1,3
+P003,24,Woman,Control,2026-04-12,3,face,positive,529,1,5
+P003,24,Woman,Control,2026-04-12,4,face,negative,746,1,3
+P003,24,Woman,Control,2026-04-12,5,word,positive,577,1,4
+P003,24,Woman,Control,2026-04-12,6,face,neutral,552,1,4
+P003,24,Woman,Control,2026-04-12,7,word,negative,701,0,2
+P003,24,Woman,Control,2026-04-12,8,face,positive,541,1,5

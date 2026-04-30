@@ -1,0 +1,2 @@
+respondent_id,age,gender,year_of_study,study_program,group,completion_date,gad7_1,gad7_2,gad7_3,gad7_4,gad7_5,gad7_6,gad7_7,pss4_1,pss4_2,pss4_3,pss4_4,sleep_quality_1to5,daily_screen_time_hours,consent_given
+R105,22,Female,3,Neuroscience,control,2026-04-16,1,1,2,1,1,1,1,2,2,2,2,3,6.0,yes

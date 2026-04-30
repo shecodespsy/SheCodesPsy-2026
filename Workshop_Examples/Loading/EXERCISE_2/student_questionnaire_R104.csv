@@ -1,0 +1,2 @@
+respondent_id,age,gender,year_of_study,study_program,group,completion_date,gad7_1,gad7_2,gad7_3,gad7_4,gad7_5,gad7_6,gad7_7,pss4_1,pss4_2,pss4_3,pss4_4,sleep_quality_1to5,daily_screen_time_hours,consent_given
+R104,27,Non-binary,5,Clinical Psychology,intervention,2026-04-15,3,2,2,2,3,2,2,4,3,4,3,2,6.5,yes
