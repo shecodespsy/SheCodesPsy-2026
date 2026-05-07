@@ -177,19 +177,37 @@ Are participants slower or less accurate in incongruent trials than in congruent
 
 This is the most basic question and should usually be your first analysis.
 
-### Question 2: Does exercise intensity change the conflict effect?
+### Question 2: Does exercise intensity change overall reaction times and accuracy?
+
+Are participants slower or less accurate during high-intensity exercise compared to low-intensity exercise?
+
+### Question 3 (Hard!): Does exercise intensity change the conflict effect?
 
 Is the difference between incongruent and congruent trials larger during high-intensity exercise than during low-intensity exercise?
 
-This question is directly related to the original study. Note that in this case you would have to calculate means separately for each exercise condition.
+You can investigate this question using reaction times, accuracy, or both.
 
-### Question 3: Is accuracy affected by congruency or intensity?
+This question is directly related to the original study. To answer it, you need to calculate the mean performance for each participant in each combination of conditions:
 
-Do participants make more errors in incongruent trials?
+- low activation, congruent trials
+- low activation, incongruent trials
+- high activation, congruent trials
+- high activation, incongruent trials
 
-Do they make more errors during high-intensity exercise?
+In other words, you need to consider two factors:
 
-**You do not have to answer all of the questions.** Choose one question to start with and focus on answering it clearly. Once you have completed that analysis, you can decide whether you have enough time to explore another question.
+1. `physical_activation`: low activation vs high activation
+2. `trial_congruency`: congruent vs incongruent
+
+Because the same participants completed all conditions, this analysis requires a **two-way repeated-measures ANOVA**. This is more advanced than the statistical tests we have covered in the workshop, so do not worry if it feels challenging.
+
+If you choose this question, your goal is not only to get the final result, but also to practise an important research skill: learning how to look up new methods, understand examples, adapt code, and apply it to your own dataset.
+
+The most important result will be the interaction between `physical_activation` and `trial_congruency`. This interaction tells us whether the conflict effect changes depending on exercise intensity.
+
+
+
+**IMPORTANT: You do not have to answer all of the questions.** Choose one question to start with and focus on answering it clearly. Once you have completed that analysis, you can decide whether you have enough time to explore another question.
 
 You are also welcome to develop your own research question. If a different question comes to mind while you are exploring the dataset, you can investigate that instead of using one of the suggested questions.
 
