@@ -14,7 +14,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import seaborn as sns
 
-df = pd.read_csv("barometro_juventud_genero_2025_muestra100.csv")
+df = pd.read_csv("database_barometro2025.csv")
 ```
 
 #### 1.2 Explore basic properties of the dataset
