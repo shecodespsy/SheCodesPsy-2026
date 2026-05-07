@@ -141,13 +141,14 @@ For example, Python can first analyse sub-01, then sub-02, then sub-03, and cont
 The general idea is:
 
 ```python
+
+all_participants = [] # Create an empty list where you can store each individual preprocessed data
+
 for participant in participants:
     # Select the data for one participant
-    participant_data = df[df["participant"] == participant]
-
-    # Apply the same cleaning steps
-    # Calculate the measures of interest
-    # Store the results
+    participant_data = pd.read_csv(file)      # Store the loaded data
+    
+    # Now do whatever you want to do with the current dataset and later sore it in all_participants
 ``` 
 
 
@@ -280,30 +281,25 @@ df["is_fast"] = df["rt"] < 500
 df["congruency"].value_counts()
 ```
 
-### Add individual computed means to a new dataframe
+### Use loops to load all participants' files
 
 ```python
-results = [] # create an empty list that will store my participants means
+
+# Create an empty list
+all_data = []
 
 participants = 0:24
 
-for participant_id in participants:
+# Load each participant file
+for participants in files:
+    df = pd.read_csv(file)
 
-    # 1. Load one participant (not shown here)
-    # 2. Clean the data (not shown here)
-    # 3. Calculate the mean reaction time
-    mean_rt = participant_data_clean["reaction_times"].mean()
+    # Store the full dataframe in the list
+    all_data.append(df)
 
-    # 4. Store the result in the "results" list
-    results.append({
-        "sub_ID": participant_id,
-        "mean_rt": mean_rt
-    })
+# Combine all participants into one big dataframe
+data = pd.concat(all_data, ignore_index=True)
 
-# 5. Create the final participant-level dataframe
-participant_means = pd.DataFrame(results)
-
-# Highly recommended: save your new dataframe!
 ```
 
 
