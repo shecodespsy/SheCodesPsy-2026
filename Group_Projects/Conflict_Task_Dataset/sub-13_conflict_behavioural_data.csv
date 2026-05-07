@@ -249,7 +249,7 @@ sub-13,247,high_activation,congruent,correct,372
 sub-13,248,high_activation,congruent,correct,463
 sub-13,249,high_activation,incongruent,correct,565
 sub-13,250,high_activation,congruent,correct,527
-sub-13,251,high_activation,congruent,,
+sub-13,251,high_activation,congruent,,NaN
 sub-13,252,high_activation,congruent,correct,345
 sub-13,253,high_activation,incongruent,correct,527
 sub-13,254,high_activation,incongruent,correct,475
@@ -473,7 +473,7 @@ sub-13,471,high_activation,incongruent,correct,409
 sub-13,472,high_activation,incongruent,correct,495
 sub-13,473,high_activation,congruent,correct,407
 sub-13,474,high_activation,congruent,correct,470
-sub-13,475,high_activation,incongruent,,
+sub-13,475,high_activation,incongruent,,NaN
 sub-13,476,high_activation,congruent,correct,685
 sub-13,477,high_activation,incongruent,correct,963
 sub-13,478,high_activation,congruent,correct,627
@@ -603,8 +603,8 @@ sub-13,601,high_activation,congruent,correct,555
 sub-13,602,high_activation,congruent,correct,503
 sub-13,603,high_activation,congruent,correct,541
 sub-13,604,high_activation,incongruent,correct,507
-sub-13,605,high_activation,congruent,,
-sub-13,606,high_activation,incongruent,,
+sub-13,605,high_activation,congruent,,NaN
+sub-13,606,high_activation,incongruent,,NaN
 sub-13,607,high_activation,congruent,correct,962
 sub-13,608,high_activation,incongruent,correct,856
 sub-13,609,high_activation,incongruent,correct,355
@@ -659,7 +659,7 @@ sub-13,657,high_activation,incongruent,correct,415
 sub-13,658,high_activation,incongruent,correct,572
 sub-13,659,high_activation,congruent,correct,557
 sub-13,660,high_activation,congruent,correct,464
-sub-13,661,high_activation,congruent,,
+sub-13,661,high_activation,congruent,,NaN
 sub-13,662,high_activation,incongruent,correct,421
 sub-13,663,high_activation,incongruent,correct,413
 sub-13,664,high_activation,congruent,correct,531
@@ -710,7 +710,7 @@ sub-13,708,high_activation,congruent,incorrect,377
 sub-13,709,high_activation,incongruent,correct,403
 sub-13,710,high_activation,congruent,correct,342
 sub-13,711,high_activation,incongruent,correct,471
-sub-13,712,high_activation,incongruent,,
+sub-13,712,high_activation,incongruent,,NaN
 sub-13,713,high_activation,congruent,correct,654
 sub-13,714,high_activation,incongruent,correct,702
 sub-13,715,high_activation,incongruent,correct,493

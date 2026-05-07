@@ -362,7 +362,7 @@ sub-01,360,high_activation,congruent,correct,435
 sub-01,361,high_activation,congruent,correct,403
 sub-01,362,high_activation,incongruent,correct,540
 sub-01,363,high_activation,congruent,correct,551
-sub-01,364,high_activation,congruent,,
+sub-01,364,high_activation,congruent,,NaN
 sub-01,365,high_activation,congruent,correct,495
 sub-01,366,high_activation,congruent,correct,481
 sub-01,367,high_activation,congruent,correct,437
@@ -920,7 +920,7 @@ sub-01,136,low_activation,congruent,correct,598
 sub-01,137,low_activation,congruent,correct,418
 sub-01,138,low_activation,incongruent,correct,572
 sub-01,139,low_activation,congruent,correct,586
-sub-01,140,low_activation,congruent,,
+sub-01,140,low_activation,congruent,,NaN
 sub-01,141,low_activation,incongruent,correct,516
 sub-01,142,low_activation,incongruent,correct,484
 sub-01,143,low_activation,congruent,correct,634
@@ -1135,7 +1135,7 @@ sub-01,351,low_activation,incongruent,correct,524
 sub-01,352,low_activation,incongruent,correct,544
 sub-01,353,low_activation,congruent,correct,608
 sub-01,354,low_activation,incongruent,correct,748
-sub-01,355,low_activation,incongruent,,
+sub-01,355,low_activation,incongruent,,NaN
 sub-01,356,low_activation,incongruent,correct,578
 sub-01,357,low_activation,congruent,correct,496
 sub-01,358,low_activation,congruent,correct,510
@@ -1196,7 +1196,7 @@ sub-01,412,low_activation,incongruent,correct,580
 sub-01,413,low_activation,congruent,correct,601
 sub-01,414,low_activation,incongruent,correct,1130
 sub-01,415,low_activation,incongruent,correct,632
-sub-01,416,low_activation,congruent,,
+sub-01,416,low_activation,congruent,,NaN
 sub-01,417,low_activation,congruent,correct,510
 sub-01,418,low_activation,congruent,correct,671
 sub-01,419,low_activation,congruent,correct,789
@@ -1285,7 +1285,7 @@ sub-01,501,low_activation,congruent,correct,425
 sub-01,502,low_activation,congruent,correct,424
 sub-01,503,low_activation,congruent,correct,386
 sub-01,504,low_activation,congruent,correct,394
-sub-01,505,low_activation,congruent,,
+sub-01,505,low_activation,congruent,,NaN
 sub-01,506,low_activation,incongruent,correct,508
 sub-01,507,low_activation,incongruent,correct,457
 sub-01,508,low_activation,congruent,correct,446
@@ -1394,7 +1394,7 @@ sub-01,610,low_activation,congruent,correct,497
 sub-01,611,low_activation,congruent,correct,416
 sub-01,612,low_activation,congruent,correct,502
 sub-01,613,low_activation,congruent,correct,503
-sub-01,614,low_activation,congruent,,
+sub-01,614,low_activation,congruent,,NaN
 sub-01,615,low_activation,congruent,correct,457
 sub-01,616,low_activation,congruent,correct,396
 sub-01,617,low_activation,incongruent,correct,414
@@ -1457,7 +1457,7 @@ sub-01,673,low_activation,incongruent,correct,476
 sub-01,674,low_activation,congruent,correct,521
 sub-01,675,low_activation,incongruent,correct,506
 sub-01,676,low_activation,congruent,correct,476
-sub-01,677,low_activation,congruent,,
+sub-01,677,low_activation,congruent,,NaN
 sub-01,678,low_activation,incongruent,correct,558
 sub-01,679,low_activation,incongruent,correct,497
 sub-01,680,low_activation,congruent,correct,417
@@ -1472,7 +1472,7 @@ sub-01,688,low_activation,incongruent,correct,507
 sub-01,689,low_activation,incongruent,correct,473
 sub-01,690,low_activation,congruent,correct,443
 sub-01,691,low_activation,incongruent,correct,436
-sub-01,692,low_activation,incongruent,,
+sub-01,692,low_activation,incongruent,,NaN
 sub-01,693,low_activation,incongruent,correct,661
 sub-01,694,low_activation,incongruent,correct,494
 sub-01,695,low_activation,incongruent,correct,580

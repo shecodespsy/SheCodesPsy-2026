@@ -213,7 +213,7 @@ sub-25,211,high_activation,congruent,correct,337
 sub-25,212,high_activation,congruent,correct,487
 sub-25,213,high_activation,incongruent,correct,338
 sub-25,214,high_activation,incongruent,correct,432
-sub-25,215,high_activation,incongruent,,
+sub-25,215,high_activation,incongruent,,NaN
 sub-25,216,high_activation,incongruent,correct,518
 sub-25,217,high_activation,incongruent,correct,406
 sub-25,218,high_activation,incongruent,correct,397
@@ -579,7 +579,7 @@ sub-25,577,high_activation,congruent,correct,390
 sub-25,578,high_activation,congruent,correct,364
 sub-25,579,high_activation,congruent,correct,401
 sub-25,580,high_activation,congruent,correct,356
-sub-25,581,high_activation,incongruent,,
+sub-25,581,high_activation,incongruent,,NaN
 sub-25,582,high_activation,congruent,correct,335
 sub-25,583,high_activation,congruent,correct,360
 sub-25,584,high_activation,incongruent,correct,368
@@ -685,7 +685,7 @@ sub-25,683,high_activation,congruent,correct,381
 sub-25,684,high_activation,congruent,correct,342
 sub-25,685,high_activation,congruent,correct,323
 sub-25,686,high_activation,incongruent,correct,335
-sub-25,687,high_activation,incongruent,,
+sub-25,687,high_activation,incongruent,,NaN
 sub-25,688,high_activation,congruent,correct,454
 sub-25,689,high_activation,incongruent,correct,449
 sub-25,690,high_activation,congruent,correct,287
@@ -987,7 +987,7 @@ sub-25,157,low_activation,congruent,correct,241
 sub-25,158,low_activation,congruent,correct,301
 sub-25,159,low_activation,congruent,correct,317
 sub-25,160,low_activation,congruent,correct,243
-sub-25,161,low_activation,incongruent,,
+sub-25,161,low_activation,incongruent,,NaN
 sub-25,162,low_activation,incongruent,correct,449
 sub-25,163,low_activation,congruent,correct,356
 sub-25,164,low_activation,congruent,correct,313
@@ -1355,7 +1355,7 @@ sub-25,525,low_activation,incongruent,correct,373
 sub-25,526,low_activation,congruent,correct,330
 sub-25,527,low_activation,incongruent,correct,236
 sub-25,528,low_activation,congruent,incorrect,349
-sub-25,529,low_activation,incongruent,,
+sub-25,529,low_activation,incongruent,,NaN
 sub-25,530,low_activation,incongruent,correct,493
 sub-25,531,low_activation,incongruent,correct,379
 sub-25,532,low_activation,congruent,correct,371

@@ -117,7 +117,7 @@ Each file is organized in columns containing the following variables:
 | `reaction_times` | Reaction time in milliseconds |
 
 
-Note that if the participant did not respond to a trial (omission), the columns `response_correctness` and `reaction_times` are be empty for that particular trial.
+Note that if the participant did not respond to a trial (omission), the columns `response_correctness` and `reaction_times` have the value NaN for that particular trial.
 
 
 
