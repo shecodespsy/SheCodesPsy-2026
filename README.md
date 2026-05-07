@@ -14,9 +14,6 @@ To follow the workshop you will need:
 - A **laptop or tablet** with a browser installed (Google Chrome or Mozilla Firefox recommended)
 - Access to internet: **Eduroam connection** will work in all the University of Granada installations. 
 - A **Google account** so you can use and store the Google Colab notebooks that we'll work with. 
-  
-### Optional
-
 
 > **OPTIONAL**: *For those who want to go to the bottom of it,* you can also install **PsychoPy** on your computer (instructions at the end of this document). Psychopy is a python-based library for experiment presentation. Having it installed is **not mandatory** for the worksho: we will not do exercises with it. Still, we will follow a quick demo to show how to code a basic experiment. If you'd like to follow along and try the experiment yourself. it's worth setting up.
 
@@ -53,7 +50,7 @@ from Google that lets you write and run Python directly in your browser.
 
 The notebooks are hosted on our GitHub repository:
 
-> 🔗 [github.com/SheCodesPsy](https://github.com/SheCodesPsy)
+> 🔗 [github.com/SheCodesPsy/SheCodesPsy-2026](https://github.com/SheCodesPsy/SheCodesPsy-2026)
 
 ### Step 1 — Open a notebook in Colab
 
@@ -100,21 +97,17 @@ Once the notebook is open in Colab:
 > ⚠️ **This is not mandatory.** We will not do exercises with PsychoPy during the workshop. However, if you'd like to try running the experiment yourself while we walk through the live demo, here's how to install it. 
 > ⏱️ Installation takes around **15–30 minutes**. If you'd like to have it ready, do this before the workshop day.
 
-> 
 ### Windows
-
 1. Go to [psychopy.org/download.html](https://www.psychopy.org/download.html).
 2. Under **Standalone PsychoPy**, click the **Windows** download link.
 3. Run the `.exe` installer and follow the on-screen instructions.
 4. Open **PsychoPy** from the Start menu to confirm it works.
 
 ### macOS
-
 1. Go to [psychopy.org/download.html](https://www.psychopy.org/download.html).
 2. Under **Standalone PsychoPy**, click the **macOS** download link.
 3. Open the `.dmg` file and drag PsychoPy into your **Applications** folder.
 4. Open PsychoPy from Applications.
-
 
 ---
 
