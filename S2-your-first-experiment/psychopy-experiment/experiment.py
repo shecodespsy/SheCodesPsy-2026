@@ -60,7 +60,7 @@ if not os.path.exists('results'): # Create results folder if it doesn't exist
 clock = core.Clock()
 
 # Set up the monitor:  monitor ID, resolution, sampling rate, etc.
-win = visual.Window(size=[600, 400], color='white', units='pix')
+win = visual.Window(size=[1000, 600], color='white', units='pix')
 
 # Set up the keyboard: clean past events and decide keys allowed 
 event.clearEvents()
@@ -71,12 +71,12 @@ N_BLOCKS = 2
 N_TRIALS = 20
 # Define the position of our stimuli depending on the block condition
 POSITION_CENTRAL = {
-    'left':  [-50, 0],
-    'right': [+50, 0]
+    'left':  [-75, 0],
+    'right': [+75, 0]
 }
 POSITION_PERIPHERAL = {
-    'left':  [-100, 0],
-    'right': [+100, 0]
+    'left':  [-300, 0],
+    'right': [+300, 0]
 }
 # =============================================================================
 # SET UP THE TRIAL STIMULI
@@ -88,9 +88,9 @@ fixation = visual.TextStim(win, text='+',color='black',height=40)
 
 # B) Stimuli that change trial-by-trial: 
 # The arrow (on each trial, we change the image and its location)
-arrow = visual.ImageStim(win, size=[80, 80])
+arrow = visual.ImageStim(win, size=[70, 50])
 # The feedback we give the participants (updated after the response)
-feedback = visual.TextStim(win, text='',color='',height=20)
+feedback = visual.TextStim(win, text='',color='',height=30)
 
 # =============================================================================
 # SHOW THE EXPERIMENT INSTRUCTIONS // WE CAN SKIP THIS 
@@ -144,7 +144,7 @@ for block in range(N_BLOCKS):     # Repeat this for every block...
     # =============================================================================
     # TRIAL LOOP
     # =============================================================================
-    for trial in range(2):#N_TRIALS): # Repeat this for every trial...
+    for trial in N_TRIALS: # Repeat this for every trial...
         print('trial no. ' + str(trial+1) + ' starting now...')
         
         # 1. Fixation cross
@@ -154,7 +154,7 @@ for block in range(N_BLOCKS):     # Repeat this for every block...
 
         # 2. Stimulus
         # Set up the current trial stimulus image and the position
-        arrow.image = 'stim/arrow_' + trial_list['direction'][trial] 
+        arrow.image = 'stim/arrow_' + trial_list['direction'][trial] + '.png'
         if trial_list['block_type'][trial] == 'central':
             arrow.pos   = POSITION_CENTRAL[trial_list['position'][trial]] 
         elif trial_list['block_type'][trial] == 'peripheral':
@@ -202,6 +202,7 @@ for block in range(N_BLOCKS):     # Repeat this for every block...
             'Handedness':  info['Handedness'],
             'trial':       trial + 1,
             'block':       block + 1,
+            'condition':   trial_list['block_type'][trial],
             'direction':   trial_list['direction'][trial],
             'position':    trial_list['position'][trial],
             'congruency':  trial_list['congruency'][trial],
