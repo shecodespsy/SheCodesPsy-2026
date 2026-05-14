@@ -22,6 +22,7 @@ and download all the materials.
 """
 
 from psychopy import visual, core, event, gui, data
+import random
 import pandas as pd
 import os
 
@@ -60,7 +61,7 @@ if not os.path.exists('results'): # Create results folder if it doesn't exist
 clock = core.Clock()
 
 # Set up the monitor:  monitor ID, resolution, sampling rate, etc.
-win = visual.Window(size=[1000, 600], color='white', units='pix')
+win = visual.Window(size=[1000, 600], color='white', units='pix', fullscr = False)
 
 # Set up the keyboard: clean past events and decide keys allowed 
 event.clearEvents()
@@ -125,7 +126,11 @@ event.waitKeys(keyList=['space'])
 
 for block in range(N_BLOCKS):     # Repeat this for every block...
     print('block no. ' + str(block + 1) + ' starting now...')
-    
+    block_instr = visual.TextStim(win,color='black',height=28)
+    block_instr.text = 'Block ' + str(block+1) + '. Press SPACEBAR to start'
+    block_instr.draw()
+    win.flip()
+    event.waitKeys(keyList=['space'])
     # =============================================================================
     # Load the block trial list .csv file) and set up the block output file 
     # =============================================================================
@@ -138,20 +143,22 @@ for block in range(N_BLOCKS):     # Repeat this for every block...
     #   correct_response : 'l' or 's'
     trial_list = pd.read_csv('trial_list_' + str(block+1) +'.csv')
     
-    output_name = 'results/' + str(info['Participant ID']) + '_results' + str(block+1) + '.csv'
     # Set up the results VARIABLE (dictionary) and the FILE where it'll be stored:
     results = [] 
+    output_name = 'results/sub' + str(info['Participant ID']) + '_block' + str(block+1) + 'results.csv'
+
     # =============================================================================
     # TRIAL LOOP
     # =============================================================================
-    for trial in N_TRIALS: # Repeat this for every trial...
+    for trial in range(5):#range(N_TRIALS): # Repeat this for every trial...
         print('trial no. ' + str(trial+1) + ' starting now...')
         
         # 1. Fixation cross
         fixation.draw() # Prepare...
         win.flip()      # Show!
-        core.wait(0.5)  # Leave it on screen for 500ms
-
+        core.wait(1)  # Leave it on screen for 500ms
+        # core.wait(random.uniform(0.5,1))
+        
         # 2. Stimulus
         # Set up the current trial stimulus image and the position
         arrow.image = 'stim/arrow_' + trial_list['direction'][trial] + '.png'
@@ -169,7 +176,7 @@ for block in range(N_BLOCKS):     # Repeat this for every block...
         clock.reset()       
         # Collect key presses (from target keys) for 2 secons     
         keys = event.waitKeys(
-            maxWait=2.0,
+            maxWait=1.0,
             keyList= keys_allowed,
             timeStamped=clock # RT is computed using our clock as reference! 
         )
