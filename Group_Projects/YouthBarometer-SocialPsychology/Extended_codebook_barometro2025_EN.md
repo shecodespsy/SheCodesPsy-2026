@@ -9,9 +9,6 @@ Source: Kuric Kardelis, S., Gómez Miguel, A. y Sanmartín Ortí, A. (2026). Bar
 
 ## General notes
 - **Missing / No answer**: already replaced with `NaN` in this dataset.
-  - *0–10 scale items*: original code `99` → NaN (`9` is a valid score on these scales)
-  - *Categorical items*: original code `9` or `99` → NaN depending on the variable
-  - *Exception*: P4 — value `9` = "Other official qualification" (valid answer, not missing)
 - **Multi-response items** (P20, P21, P28, P31, P58, P59, P92–P98): expanded into binary columns (e.g. `P20_1`, `P20_2`…), where `1` = selected, `0`/NaN = not selected.
 - **0–10 scales**: anchors described per item.
 - **1–4 scales**: 1 = strongly disagree, 4 = strongly agree.
